@@ -302,16 +302,22 @@ ul.dropdown-menu li a:hover {
 }
 
 .thumbnail--awesome {
-     background: url(../images/b1.jpg) no-repeat 0px 0px;
+     background: url(../images/un1.jpg) no-repeat 0px 0px;
 }
 .thumbnail--awesome1 {
-     background: url(../images/b2.jpg) no-repeat 0px 0px;
+     background: url(../images/un2.jpg) no-repeat 0px 0px;
 }
 .thumbnail--awesome2 {
-     background: url(../images/b3.jpg) no-repeat 0px 0px;
+     background: url(../images/un4.jpg) no-repeat 0px 0px;
 }
 .thumbnail--awesome3 {
-     background: url(../images/b4.jpg) no-repeat 0px 0px;
+     background: url(../images/un3.jpg) no-repeat 0px 0px;
+}
+.thumbnail--awesome4{
+     background: url(../images/b1.jpg) no-repeat 0px 0px;
+}
+.thumbnail--awesome5{
+     background: url(../images/un5.jpg) no-repeat 0px 0px;
 }
 .thumbnail__overlay {
   position: relative;
