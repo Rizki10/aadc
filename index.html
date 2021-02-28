@@ -110,7 +110,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li><a class="hvr-sweep-to-right" href="index.html">Home</a></li>
 							<li><a class="hvr-sweep-to-right" href="about.html">About Us</a></li>
 					<!--		<li><a class="hvr-sweep-to-right" href="events.html">Events</a></li> -->
-							<li class="dropdown">
+							<li class="dropdown" id="custom-dropdown">
 									<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Our Services <b class="caret"></b></a>
 									<ul class="dropdown-menu">
 										<li><a class="hvr-sweep-to-right" href="icons.html">Icons</a></li>
@@ -634,8 +634,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			*/
 								
 			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
+
+			/* Custom Dropdown */
+			$('#custom-dropdown')
+				.mouseover(function() {
+					$(this).addClass('open');
+				})
+				.mouseleave(function(){
+					$(this).removeClass('open');
+				});						
+		});
 	</script>
 <!-- //here ends scrolling icon -->
 </body>
