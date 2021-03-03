@@ -95,7 +95,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 }
 .dropdown-menu {
     position: absolute;
-    top: 115%;
+    top: 100%;
     left: 0;
     z-index: 1000;
     display: none;
@@ -1708,7 +1708,7 @@ figure.effect-apollo:hover p {
 }
 /*-- about --*/
 .wthree-about-left-info{
-    background: #EAF7FD;
+    background: #fff;
     padding: .5em;	
 }
 .wthree-about-left-info img{
@@ -3809,3 +3809,20 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 }
 /*-- //responsive-design --*/
+
+/* Custom Style */
+.contact-text {
+  display: inline-flex;
+  min-height: 62px;
+  align-items: center;
+  margin-left: 20px;
+}
+.contact-text.phone {
+  display: block;
+  margin-left: 80px;
+}
+.wthree_footer_grid_left.custom { float: left; }
+.open > .dropdown-toggle { 
+  background-color: #ff0a80 !important; 
+  color: #fff !important;
+}
