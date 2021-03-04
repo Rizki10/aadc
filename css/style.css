@@ -3826,3 +3826,11 @@ nav.navbar.navbar-default.navbar-fixed-top {
   background-color: #ff0a80 !important; 
   color: #fff !important;
 }
+@media (max-width: 460px) {
+	.contact-text { display: block; }
+	.contact-text, .contact-text.phone { margin-left: calc(100% / 4); }
+}
+@media (max-width: 320px) {
+	.contact-text { display: block; }
+	.contact-text, .contact-text.phone { margin-left: calc(100% / 3.5); }
+}
